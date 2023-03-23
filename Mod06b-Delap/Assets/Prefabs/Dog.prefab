@@ -4420,7 +4420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b76c7b9fc5e1642a8e3b673b69dd7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
+  dynamicSpeed: 1
 --- !u!114 &448214288656664236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4457,7 +4458,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448214288656664235}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.057207007, y: 0.18868238, z: 0.25973895}
